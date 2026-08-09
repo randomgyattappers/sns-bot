@@ -155,27 +155,6 @@ The kill window timer resets cleanly between games.
 
 ---
 
-## File Structure
-
-```
-SNSMod/
-├── Plugin.cs                          # Entry point
-├── SessionBanList.cs                  # Session ban/kick list
-├── RuleChecker.cs                     # Name/chat content scanner
-├── WarnSystem.cs                      # Warn tracking system
-└── Patches/
-    ├── RoleAndSettingsManager.cs      # Forces SNS settings + roles
-    ├── VentPatches.cs                 # Blocks impostor venting
-    ├── MeetingPatches.cs              # Blocks reports + meetings
-    ├── SabotagePatches.cs             # Comms-only sabotage
-    ├── MissKillPatches.cs             # Miss kill detection + execution
-    ├── PlayerJoinPatches.cs           # Name check + chat moderation
-    ├── WelcomeMessagePatches.cs       # Welcome + rules messages
-    └── AutoRestartPatches.cs          # Auto lobby restart
-```
-
----
-
 ## FAQ
 
 **Do players need to install this mod?**
@@ -183,12 +162,6 @@ No. Only the host needs it. Vanilla Among Us clients join and play normally.
 
 **Does this work on Steam?**
 This build targets the itch.io version. Steam support may work but is untested.
-
-**Can I change the word filter?**
-Yes — open `RuleChecker.cs` and edit the word lists at the top of the file.
-
-**Can I change the miss kill timer?**
-Yes — open `MissKillPatches.cs` and change `KillWindowSeconds`.
 
 ---
 
