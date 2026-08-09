@@ -149,10 +149,7 @@ Type these in the Among Us lobby chat as host:
 
 ## How Miss Kill Works
 
-1. Impostor shapeshifts into a player → 25 second kill window starts
-2. If they kill within the window → ✅ no penalty, tracking clears
-3. If the window expires without a kill → ☠️ impostor is instantly killed
-4. If the impostor reverts form without killing → ☠️ also instantly killed
+if the impostor KILLS someone they didnt ss into. THEY DIE.
 
 The kill window timer resets cleanly between games.
 
